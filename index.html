@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulário T3</title>
+</head>
+
+<body>
+  <header>
+    <h1>Cadastre-se</h1>
+    <h2>Compre ingressos e combos de pipoca com conforto e comodidade.</h2>
+  </header>
+  <main>
+    <form action="">
+      <fieldset>
+        <legend>Preencha os campos</legend>
+
+        <div>
+          <label for="nome">Nome: </label>
+          <input type="text" name="nome" id="nome" placeholder="Escreva seu nome" />
+        </div>
+
+        <div>
+          <label for="email">Email: </label>
+          <input type="email" name="email" id="email" placeholder="Digite seu email" />
+        </div>
+
+        <div>
+          <label for="senha">Senha: </label>
+          <input type="text" name="senha" id="senha" placeholder="Escreva sua senha" />
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <Label for="estados">Estados:</Label>
+        <select name="estados" id="estados">
+          <option value="AC">Acre</option>
+          <option value="AL">Alagoas</option>
+          <option value="AP">Amapá</option>
+          <option value="AM">Amazonas</option>
+          <option value="BA">Bahia</option>
+          <option value="CE">Ceará</option>
+          <option value="DF">Distrito Federal</option>
+          <option value="ES">Espírito Santo</option>
+          <option value="GO">Goiás</option>
+          <option value="MA">Maranhão</option>
+          <option value="MT">Mato Grosso</option>
+          <option value="MS">Mato Grosso do Sul</option>
+          <option value="MG">Minas Gerais</option>
+          <option value="PA">Pará</option>
+          <option value="PB">Paraíba</option>
+          <option value="PR">Paraná</option>
+          <option value="PE">Pernambuco</option>
+          <option value="PI">Piauí</option>
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="RN">Rio Grande do Norte</option>
+          <option value="RS">Rio Grande do Sul</option>
+          <option value="RO">Rondônia</option>
+          <option value="RR">Roraima</option>
+          <option value="SC">Santa Catarina</option>
+          <option value="SP">São Paulo</option>
+          <option value="SE">Sergipe</option>
+          <option value="TO">Tocantins</option>
+        </select>
+        
+        <label for="nascimento">Data de nascimento</label>
+        <input type="date" name ="nascimento" id="nascimento" >
+
+        <label for="foto">Selecione uma foto:</label>
+        <input type="file"  name="foto" id="foto" accept="image/png,image/jpeg, doc/pdf">
+      </fieldset>
+      <fieldset>
+        <legend>Você é um robô?</legend>
+        <img src="https://images.vexels.com/media/users/3/201138/isolated/lists/143b8e1550deda3eadf5a8c0045cbb0f-robo-de-brinquedo-plano.png" width="100px" alt="foto de um robô">
+      <div>
+        <input type="radio" name="robo" id="sim">
+        <label for="sim">Sim, sou um Robô</label>
+        
+        <input type="radio" name="robo" id="nao">
+        <label for="nao">Não sou um robô</label>
+
+        <input type="radio" name="talvez" id="talvez">
+        <label for="talvez">Talvez eu seja um robô</label>
+      </div>
+      
+      <input type="checkbox" nome="acordo" id="acordo">
+      <label for="acordo">Declaro que sou um robô e vim pedir educação ao ChatGPT</label>
+      </fieldset>
+      
+      <input type="button" name="enviar" value="ENVIAR">
+      
+    </form>
+  </main>
+</body>
+
+</html>
